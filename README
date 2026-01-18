@@ -56,7 +56,7 @@ camonk-blog-final/
 │   └── index.css
 ⚙️ Installation & Setup
 1️⃣ Clone the Repository
-git clone https://github.com/your-username/camonk-blog.git
+git clone https://github.com/Rahulkumar7818/CA-Monk-Blog-Application
 cd camonk-blog-final
 2️⃣ Install Dependencies
 npm install
@@ -105,3 +105,4 @@ This project is for learning and demonstration purposes.
 
 Rahul Kumar
 Frontend Developer | React | TypeScript
+
