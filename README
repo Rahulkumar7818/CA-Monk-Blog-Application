@@ -1,0 +1,107 @@
+Camonk Blog Platform
+
+A modern, responsive blog platform built with React, TypeScript, and Tailwind CSS. This project demonstrates a clean frontend architecture, reusable components, and API-based data handling suitable for real-world applications.
+
+🚀 Features
+
+📝 Blog listing and blog card components
+
+⚡ Fast and responsive UI using Tailwind CSS
+
+🔍 Clean separation of API, components, and pages
+
+🧩 Reusable and scalable component structure
+
+📦 Mock backend using db.json
+
+🔄 React Query setup for efficient data fetching
+
+💻 Fully written in TypeScript
+
+🛠️ Tech Stack
+
+Frontend: React + TypeScript
+
+Styling: Tailwind CSS
+
+State / Data Fetching: React Query
+
+Build Tool: Vite
+
+Mock API: JSON Server (db.json)
+
+📁 Project Structure
+camonk-blog-final/
+│
+├── index.html
+├── package.json
+├── tailwind.config.js
+├── postcss.config.js
+├── db.json                # Mock backend data
+├── README.md
+│
+├── src/
+│   ├── api/               # API calls
+│   │   └── blogs.ts
+│   ├── components/        # Reusable UI components
+│   │   ├── BlogCard.tsx
+│   │   └── BlogList.tsx
+│   ├── lib/               # Utility & configuration files
+│   │   └── queryClient.ts
+│   ├── pages/             # Page-level components
+│   ├── types/             # TypeScript types
+│   │   └── blog.ts
+│   ├── App.tsx
+│   ├── main.tsx
+│   └── index.css
+⚙️ Installation & Setup
+1️⃣ Clone the Repository
+git clone https://github.com/your-username/camonk-blog.git
+cd camonk-blog-final
+2️⃣ Install Dependencies
+npm install
+3️⃣ Start Mock API Server
+npx json-server --watch db.json --port 3001
+4️⃣ Start Development Server
+npm run dev
+
+Open your browser and visit: 👉 http://localhost:5173
+
+📌 API Details
+
+Base URL: http://localhost:3001
+
+Endpoint: /blogs
+
+Data is fetched using React Query for caching and performance optimization.
+
+📷 Screenshots
+
+Add screenshots here if required
+
+🧪 Scripts
+npm run dev       # Start development server
+npm run build     # Build for production
+npm run preview   # Preview production build
+🙌 Future Improvements
+
+Authentication (Login / Signup)
+
+Blog creation & editing
+
+Pagination and search
+
+Backend integration with real APIs
+
+🤝 Contributing
+
+Contributions are welcome! Feel free to fork this repository and submit a pull request.
+
+📄 License
+
+This project is for learning and demonstration purposes.
+
+👤 Author
+
+Rahul Kumar
+Frontend Developer | React | TypeScript
